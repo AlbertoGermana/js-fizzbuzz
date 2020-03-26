@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: grey;
+    margin-left: 5px;
+    transition: ease 1s;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+}
+
+#list_container{
+    height: 80vh;
+    width: 10vw;
+    margin-top: 100px;
+    overflow-y: scroll;
+}
